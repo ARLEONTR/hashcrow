@@ -1,0 +1,54 @@
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+.env
+
+# Python
+*.pyc
+*~
+__pycache__
+
+# Env
+myvenv/
+venv/
+
+# Database
+db.sqlite3
+
+# Static folder at project root
+/static/
+
+# Visual Studio
+.vscode/
+.history/
+*.code-workspace
+
+# Ignore Django-related files
+*.log
+*.pot
+__pycache__/
+
+# Ignore media and static files
+media/
+staticfiles/
+
+# Ignore local development settings
+local_settings.py
+
+# Ignore environment-specific files
+.env.*
+
+# Ignore IDE and editor files
+.vscode/
+*.sublime-workspace
+*.swp
+*.swo
+
+
+
+
+
+
+
